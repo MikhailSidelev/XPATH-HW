@@ -1,0 +1,19 @@
+XPath.
+Relative
+//tagnamy[@attribute='value']
+hey get me the tagName" "which has attribute" "whose value is" "
+
+attribute            //tagName[@attribute='value']
+text                 //tagName[text()='value']
+contains method      //tagName[contains(@name'value')]  using partial values of attributes or text
+                     //tagName[contains(text(),'value')]
+
+*  <input href="www.hrec.com0012354">
+ //input[@href="www.hrec.com0012354"] change to //input[contains(@href="www.hrec.com")] using contains
+
+ start with         //tagName[starts-with(@attribute,'value')]
+                    //tagName[starts-with(text(),'value')]
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+CSS
+tagname[attribute='value']
